@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Inbox - TemporarySMS</title>
+    <meta name="description" content="View SMS messages received on your temporary phone number. Get verification codes instantly for free.">
+    <meta name="keywords" content="SMS inbox, verification code, receive SMS, temporary number messages, OTP code">
+    <meta name="author" content="TemporarySMS">
+    <meta name="robots" content="noindex, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SMS Inbox - TemporarySMS">
+    <meta property="og:description" content="View SMS messages received on your temporary phone number. Get verification codes instantly.">
+    <meta property="og:image" content="https://temporarysms.com/img/og-image.png">
+    <meta property="og:site_name" content="TemporarySMS">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="SMS Inbox - TemporarySMS">
+    <meta name="twitter:description" content="View SMS messages received on your temporary phone number.">
+
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#6366f1">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.ezojs.com">
+
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="css/style.css" as="style">
+
+    <!-- Inter font with display swap for faster text rendering -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Ad -->
+    <div class="ad-header">
+        <div class="ad-container ad-horizontal">
+            <!-- Ezoic - header_ad - top_of_page -->
+            <div id="ezoic-pub-ad-placeholder-101"></div>
+            <!-- End Ezoic - header_ad - top_of_page -->
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <h1 class="logo">
+                    <a href="index.html">TemporarySMS</a>
+                </h1>
+                <nav class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="how-it-works.html">How It Works</a>
+                    <a href="faq.html">FAQ</a>
+                </nav>
+            </div>
+            <nav class="breadcrumb">
+                <a href="index.html">Countries</a>
+                <span class="separator">/</span>
+                <a href="#" id="country-link">Loading...</a>
+                <span class="separator">/</span>
+                <span id="phone-number">Loading...</span>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <!-- Left Sidebar Ad -->
+        <aside class="ad-sidebar ad-sidebar-left">
+            <div class="ad-sticky">
+                <div class="ad-container ad-vertical">
+                    <!-- Ezoic - sidebar_left - sidebar -->
+                    <div id="ezoic-pub-ad-placeholder-102"></div>
+                    <!-- End Ezoic - sidebar_left - sidebar -->
+                </div>
+            </div>
+        </aside>
+
+        <main class="main">
+            <div class="main-content">
+                <section class="inbox-header">
+                    <div class="phone-info">
+                        <div class="phone-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V19.92C22.0011 20.1985 21.9441 20.4742 21.8325 20.7293C21.7209 20.9845 21.5573 21.2136 21.3521 21.4019C21.1469 21.5901 20.9046 21.7335 20.6407 21.8227C20.3769 21.9119 20.0974 21.9451 19.82 21.92C16.7428 21.5856 13.787 20.5341 11.19 18.85C8.77383 17.3147 6.72534 15.2662 5.19 12.85C3.49998 10.2412 2.44824 7.27097 2.12 4.17999C2.09501 3.90344 2.12788 3.62474 2.21649 3.3616C2.30511 3.09846 2.44756 2.85666 2.63476 2.6516C2.82196 2.44653 3.0498 2.28271 3.30379 2.1705C3.55778 2.0583 3.83234 2.00026 4.11 1.99999H7.11C7.59531 1.9952 8.06579 2.16706 8.43376 2.48351C8.80173 2.79996 9.04208 3.23942 9.11 3.71999C9.23662 4.68004 9.47145 5.6227 9.81 6.52999C9.94455 6.88791 9.97366 7.27689 9.8939 7.65086C9.81415 8.02482 9.62886 8.36809 9.36 8.63999L8.09 9.90999C9.51356 12.4135 11.5865 14.4864 14.09 15.91L15.36 14.64C15.6319 14.3711 15.9752 14.1858 16.3491 14.1061C16.7231 14.0263 17.1121 14.0554 17.47 14.19C18.3773 14.5285 19.32 14.7634 20.28 14.89C20.7658 14.9585 21.2094 15.2032 21.5265 15.5775C21.8437 15.9518 22.0122 16.4296 22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h2 id="phone-display">Loading...</h2>
+                        <button class="copy-btn" id="copy-btn" title="Copy number">
+                            <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="9" y="9" width="13" height="13" rx="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5 15H4C2.89543 15 2 14.1046 2 13V4C2 2.89543 2.89543 2 4 2H13C14.1046 2 15 2.89543 15 4V5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="copy-text">Copy</span>
+                        </button>
+                    </div>
+                    <p class="inbox-status">
+                        <span class="status-dot"></span>
+                        <span id="message-count">0</span> messages received
+                    </p>
+                </section>
+
+                <section class="messages-list" id="messages-list">
+                    <div class="loading">
+                        <div class="loading-spinner"></div>
+                        <p class="loading-text">Loading messages...</p>
+                    </div>
+                </section>
+
+                <div class="refresh-notice">
+                    <p>Messages refresh automatically. Each session shows unique messages.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar Ad -->
+        <aside class="ad-sidebar ad-sidebar-right">
+            <div class="ad-sticky">
+                <div class="ad-container ad-vertical">
+                    <!-- Ezoic - sidebar_right - sidebar -->
+                    <div id="ezoic-pub-ad-placeholder-103"></div>
+                    <!-- End Ezoic - sidebar_right - sidebar -->
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-links">
+                <a href="how-it-works.html">How It Works</a>
+                <a href="faq.html">FAQ</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </nav>
+            <p>TemporarySMS - Free temporary phone numbers for SMS verification</p>
+            <p class="disclaimer">All messages are public. Do not use for sensitive information.</p>
+        </div>
+    </footer>
+
+    <!-- Bottom Sticky Ad -->
+    <div class="ad-bottom-sticky">
+        <div class="ad-container ad-horizontal-bottom">
+            <!-- Ezoic - bottom_sticky - anchor -->
+            <div id="ezoic-pub-ad-placeholder-104"></div>
+            <!-- End Ezoic - bottom_sticky - anchor -->
+        </div>
+    </div>
+
+    <!-- Defer non-critical JS -->
+    <script src="js/api.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/inbox.js" defer></script>
+
+    <!-- Lazy load Ezoic ads after page content loads -->
+    <script>
+        function loadEzoicAds() {
+            var script = document.createElement('script');
+            script.src = '//www.ezojs.com/ezoic/sa.min.js';
+            script.async = true;
+            script.onload = function() {
+                window.ezstandalone = window.ezstandalone || {};
+                ezstandalone.cmd = ezstandalone.cmd || [];
+
+                ezstandalone.cmd.push(function() {
+                    ezstandalone.define(101, 102, 103, 104);
+                    ezstandalone.enable();
+                    ezstandalone.display();
+                });
+            };
+            document.body.appendChild(script);
+        }
+
+        if (document.readyState === 'complete') {
+            loadEzoicAds();
+        } else {
+            window.addEventListener('load', function() {
+                setTimeout(loadEzoicAds, 100);
+            });
+        }
+    </script>
+</body>
+</html>
