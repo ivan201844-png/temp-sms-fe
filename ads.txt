@@ -1,2 +1,1 @@
-# Ads.txt redirect
-Redirect 301 /ads.txt https://svc.adstxtmanager.com/temporary-sms.com/ads.txt
+subdomain=svc.adstxtmanager.com
